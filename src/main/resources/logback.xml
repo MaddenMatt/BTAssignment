@@ -1,5 +1,5 @@
 <configuration>
-    <property name="LOG_FILE" value="${user.dir}/logs/app.log"/>
+    <property name="LOG_FILE" value="${user.dir}/logs/AppOutput.log"/>
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
         <file>${LOG_FILE}</file>
         <append>false</append>
